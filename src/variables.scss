@@ -1,0 +1,80 @@
+/* ============================================ */
+/* CSS/SCSS Variables Extracted from Source */
+/* Auto-generated from website cloning */
+/* ============================================ */
+
+/* ============================================ */
+/* CSS Custom Properties (use with var(--name)) */
+/* ALL CSS variables must be inside :root block */
+/* ============================================ */
+:root {
+  /* Colors */
+  --r-localnav-text-zoom-factor: 1;
+  --sk-focus-color: #0071e3;
+  --r-globalnav-color: rgba(0, 0, 0, .8);
+  --r-globalnav-color-secondary: #333336;
+  --r-globalnav-color-hover: #000000;
+  --r-globalnav-submenu-header-color: rgb(134, 134, 139);
+  --r-globalnav-submenu-header-color-alt: rgb(110, 110, 115);
+  --r-globalnav-search-input-placeholder-color: rgb(110, 110, 115);
+  --r-globalnav-search-input-value-color: #333336;
+  --r-globalnav-search-list-header-color: rgb(110, 110, 115);
+  --r-globalnav-search-list-item-color: #333336;
+  --r-globalnav-search-list-item-hover-color: #000000;
+  --r-globalnav-search-list-item-nonsearchterm-color: rgb(110, 110, 115);
+  --r-globalnav-search-list-item-searchterm-color: #333336;
+  --globalmessage-segment-text-color: rgba(255, 255, 255, .92);
+  --globalmessage-segment-border-color: rgba(255, 255, 255, .4);
+  --globalnav-background: rgba(0, 0, 0, .8);
+  --r-globalnav-background-opened: #fafafc;
+  --r-globalnav-background-opened-dark: #161617;
+  --buystrip-background: rgb(29, 29, 31);
+  --footer-background: rgb(29, 29, 31);
+  --buystrip-border-color: rgba(0, 0, 0, 0.16);
+  --buystrip-text-color: rgba(0, 0, 0, 0.88);
+  --buystrip-text-secondary-color: rgba(0, 0, 0, 0.56);
+  --buystrip-link-color: rgb(0, 102, 204);
+  --buystrip-icon-color: rgba(0, 0, 0, 0.56);
+  --sk-button-color: rgb(255, 255, 255);
+  --sk-button-color-hover: rgb(255, 255, 255);
+  --sk-button-color-active: rgb(255, 255, 255);
+  --sk-button-border-color: transparent;
+  --sk-button-border-radius: 8px;
+  --sk-button-border-width: 1px;
+  --sk-focus-color-alt: var(--localeswitcher-focus-color-alt);
+  --sk-button-disabled-opacity: .36;
+  --r-globalnav-flyout-spacing: 88px;
+
+  /* Sizes */
+  --r-localnav-height: calc(48px * var(--r-localnav-text-zoom-factor));
+  --r-localnav-viewport-small-max-width: viewport-get-property-for("ac-localnav:small", max-width);
+  --r-localnav-viewport-large-query: min-width(1024px);
+  --r-localnav-gn-height: calc(var(--r-globalnav-height, 48px) * var(--r-localnav-text-zoom-factor));
+  --r-globalnav-height: 44px;
+  --global-nav-collective-height: 0px;
+  --r-globalmessage-segment-height: 0px;
+
+  /* Font Sizes */
+  --r-globalnav-font-size: 17px;
+  --fontSize: 80px;
+
+  /* Other */
+  --localeswitcher-height: 70px;
+  --sk-focus-offset: var(--localeswitcher-focus-offset);
+  --r-localnav-viewport-medium-query: min-width(834px);
+  --r-localnav-viewport-medium-max-width: viewport-get-property-for("ac-localnav:medium", max-width);
+  --r-localnav-viewport-medium-min-width: viewport-get-property-for("ac-localnav:medium", min-width);
+}
+
+/* ============================================ */
+/* Usage Guide */
+/* ============================================ */
+
+/* CSS Custom Properties (--var-name) */
+/* Use: color: var(--primary-color); */
+
+/* SCSS Variables ($var-name) */
+/* Use: color: $primary-color; */
+
+/* You can also use these in your Tailwind config */
+/* by importing this file or referencing the values */
